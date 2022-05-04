@@ -3,7 +3,7 @@ def sum(a, b):
 
 
 def multiply(a, b):
-    result = 1
+    result = 0
     for _ in range(b):
         result = sum(result, a)
     return result
